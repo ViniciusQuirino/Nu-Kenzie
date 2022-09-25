@@ -1,0 +1,35 @@
+.home {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(20, 21, 26, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding-top: 100px;
+}
+
+.home h1 {
+    font-size: 30px;
+    color: #FD377E
+}
+
+.home p {
+    text-align: center;
+    width: 300px;
+    font-size: 32px;
+    color: white;
+}
+
+.home span {
+    color: white;
+}
+
+.home button {
+    height: 35px;
+    width: 120px;
+    border: transparent;
+    border-radius: 10px;
+    background-color: #FD377E;
+    color: white;
+}

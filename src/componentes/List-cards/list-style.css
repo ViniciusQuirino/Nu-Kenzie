@@ -1,0 +1,40 @@
+.li-card {
+    width: 100%;
+    height: 80px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #F8F9FA;
+    margin: 15px 0px;
+    list-style: none;
+    text-align: left;
+}
+
+.li-card div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.li-card div h3 {
+    font-size: 25px;
+}
+
+.li-card div p {
+    margin-top: 4px;
+    font-size: 20px;
+}
+
+.comp {
+    font-size: 15px;
+    margin-top: 6px;
+}
+
+.li-card h4 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.nenhum {
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+}
