@@ -8,7 +8,6 @@ import { useState } from 'react'
 import Homepage from './componentes/HomePage/homepage';
 
 
-
 function App() {
   const [login, setLogin] = useState(false)
   const [input, setAppInput] = useState('')
@@ -23,10 +22,12 @@ function App() {
   return (
     <div className="App">
 
+
       {!login && < Homepage setLogin={setLogin} />}
 
-      < Header setLogin={setLogin} />
-      <main className="main">
+
+      {login && < Header setLogin={setLogin} />}
+      {login && <main className="main">
         <section className="lateral-esquerda">
           <Form estado={setAppInput} setAppValor={setAppValor} setAppTipo={setAppTipo} setDados={setDados} />
           <TotalMoney valor={valorTotal} />
@@ -36,7 +37,7 @@ function App() {
 
           <ListCards dados={dados} setDados={setDados} setDadosFiltrado={dadosFiltrado} />
         </section>
-      </main>
+      </main>}
 
     </div>
   );

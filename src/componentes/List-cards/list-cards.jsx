@@ -24,7 +24,7 @@ const ListCards = ({ dados, setDados, setDadosFiltrado }) => {
 
                     <div>
                         <h3>{elem.input}</h3>
-                        <p>R$ {elem.valor}</p>
+                        <p>R$ {elem.valor},00</p>
                         <FaTrashAlt onClick={() => remover(elem)} className="comp" style={{ cursor: "pointer" }} />
                     </div>
                     <h4>{elem.tipo}</h4>
@@ -40,7 +40,7 @@ const ListCards = ({ dados, setDados, setDadosFiltrado }) => {
 
                     <div>
                         <h3>{elem.input}</h3>
-                        <p>R$ {elem.valor}</p>
+                        <p>R$ {elem.valor},00</p>
                         <FaTrashAlt onClick={() => remover(elem)} className="comp" style={{ cursor: "pointer" }} />
                     </div>
                     <h4>{elem.tipo}</h4>
